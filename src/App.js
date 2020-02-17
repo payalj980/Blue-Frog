@@ -1,0 +1,20 @@
+import React , {Component} from 'react'
+import './App.css';
+import Form from './form';
+
+class App extends Component {
+  // state = {
+  //   loader : false
+  // }
+  render(){
+          return (
+    <div className="App">
+     <Form/>
+    
+    </div>
+  );
+  }
+  
+}
+
+export default App;
